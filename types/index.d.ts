@@ -67,6 +67,7 @@ interface Avatar {
 
 
 interface SavedMessage {
+  [x: string]: ReactNode;
   role: "user" | "system" | "assistant";
   content: string;
 }
